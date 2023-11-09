@@ -4,7 +4,20 @@
     padding: 5px;
     display: inline-block;
 }
+
 .gallery-item img {
     max-width: 100%;
     height: auto;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar .dark-mode-toggle {
+    margin-left: auto;
+    padding-right: 20px;
+    font-size: 24px;
+    cursor: pointer;
 }

@@ -3,14 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SFW Gallery</title>
+    <title>Welcome to NSFW area!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
+    <div class="alert alert-danger" role="alert">
+        <strong>Warning:</strong> This content is intended for adults 18 years and older.
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">SFW Gallery</a>
+        <a class="navbar-brand" href="index.html">NSFW Index</a>
+        <div class="dark-mode-toggle ml-auto">
+            <i class="fas fa-moon"></i>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,11 +38,18 @@
     </nav>
 
     <div class="container">
-        <!-- Replace these placeholders with your actual content -->
+        <!-- Add picture content -->
         <div class="gallery-item">
-            <img src="placeholder.jpg" alt="Placeholder Image">
+            <!-- Add your picture content here -->
+            <img class="expand-image" src="assets/Photos/.jpg" alt="">
         </div>
-        <!-- Repeat these divs for more items in your gallery -->
+
+        <!-- Add more picture items -->
+        <div class="gallery-item">
+            <!-- Add your picture content here -->
+            <img class="expand-image" src="assets/Photos/.jpg" alt="">
+        </div>
+        <!-- Repeat these divs for more picture items -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

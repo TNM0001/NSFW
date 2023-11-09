@@ -3,14 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>SFW Gallery</title>
+    <title>Welcome to NSFW area!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+        }
+        .video-item {
+            flex: 0 0 calc(33.333% - 30px);
+            max-width: calc(33.333% - 30px);
+            margin: 15px;
+        }
+        .video-item video {
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="alert alert-danger" role="alert">
+        <strong>Warning:</strong> This content is intended for adults 18 years and older.
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">SFW Gallery</a>
+        <a class="navbar-brand" href="index.html">NSFW Index</a>
+        <div class="dark-mode-toggle ml-auto">
+            <i class="fas fa-moon"></i>
+        </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,12 +53,76 @@
     </nav>
 
     <div class="container">
-        <!-- Replace these placeholders with your actual content -->
-        <div class="gallery-item">
-            <img src="placeholder.jpg" alt="Placeholder Image">
-        </div>
-        <!-- Repeat these divs for more items in your gallery -->
-    </div>
+        <div class="video-container">
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video7.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video9.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video-item">
+                <video controls>
+                    <source src="assets/Videos/video10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
